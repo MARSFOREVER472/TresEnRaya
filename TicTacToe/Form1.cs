@@ -26,7 +26,20 @@ namespace TicTacToe
         // Método para inicializar un nuevo juego.
         private void nuevaPartidaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Ahora pasaremos a este método para el menú de una nueva partida.
 
+            who = 'o'; // Círculo del tablero.
+            movement = 0; // Número limitado de movimientos.
+            b1.Enabled = true; b1.Text = ""; b1.BackColor = Color.DarkRed; // Botón 1.
+            b2.Enabled = true; b2.Text = ""; b2.BackColor = Color.DarkSalmon; // Botón 2.
+            b3.Enabled = true; b3.Text = ""; b3.BackColor = Color.DarkRed; // Botón 3.
+            b4.Enabled = true; b4.Text = ""; b4.BackColor = Color.DarkSalmon; // Botón 4.
+            b5.Enabled = true; b5.Text = ""; b5.BackColor = Color.DarkRed; // Botón 5.
+            b6.Enabled = true; b6.Text = ""; b6.BackColor = Color.DarkSalmon; // Botón 6.
+            b7.Enabled = true; b7.Text = ""; b7.BackColor = Color.DarkRed; // Botón 7.
+            b8.Enabled = true; b8.Text = ""; b8.BackColor = Color.DarkSalmon; // Botón 8.
+            b9.Enabled = true; b9.Text = ""; b9.BackColor = Color.DarkRed; // Botón 9.
+            tableLayoutPanel1.Enabled = true; // Cuando está activado el tablero del juego.
         }
 
         // Método para redireccionar a la parte de información del juego.
