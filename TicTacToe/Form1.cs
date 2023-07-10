@@ -45,7 +45,9 @@ namespace TicTacToe
         // Método para redireccionar a la parte de información del juego.
         private void informaciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Le agregaremos los derechos de autor en este método.
 
+            MessageBox.Show(" Copyright 2023© Todos los derechos Reservados ");
         }
 
         // Método para los botones del tablero.
